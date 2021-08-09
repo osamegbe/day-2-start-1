@@ -18,3 +18,14 @@ print (123 + 345)
 print (3.123)
 
 #boolean - this has two possible values. either True of False - no quotation marks around them
+num_char =len(input("What is your name ? "))
+
+new_num_char = str(num_char)
+print("Your name has " + new_num_char + " characters.")
+
+# for seeing the type check print(type(num_char))
+
+a = float(123)
+print (a)
+
+print (type(a))
